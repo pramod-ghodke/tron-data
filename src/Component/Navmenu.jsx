@@ -1,7 +1,6 @@
 import React from 'react';
-
 import { LinkContainer } from "react-router-bootstrap";
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const Navmenu = () => {
   function setnav(){
@@ -31,7 +30,7 @@ const Navmenu = () => {
  
     <ul className="lg-nav">
     <li><LinkContainer to="/"><a className="active">HOME</a></LinkContainer></li>
-    <li><LinkContainer to="/blogs"><a >BLOGS</a></LinkContainer></li>
+    <li><LinkContainer to="/blogs"><a >PROJECTS</a></LinkContainer></li>
     <li><LinkContainer to="/about"><a >ABOUT US</a></LinkContainer></li>
     <li><LinkContainer to="/contact"><a >CONTACT US</a></LinkContainer></li>
     </ul>
@@ -39,7 +38,7 @@ const Navmenu = () => {
     
     <ul id="selectNav" className="mobile-nav" data-visible="false">
     <LinkContainer to="/"><li className="active"><a onClick={setnav}>HOME</a></li></LinkContainer>
-    <LinkContainer to="/blogs"><li><a onClick={setnav}>BLOGS</a></li></LinkContainer>
+    <LinkContainer to="/blogs"><li><a onClick={setnav}>PROJECTS</a></li></LinkContainer>
     <LinkContainer to="/about"><li><a onClick={setnav}>ABOUT</a></li></LinkContainer>
     <LinkContainer to="/contact"><li><a onClick={setnav}>CONTACT</a></li></LinkContainer>
     </ul>

@@ -38,7 +38,7 @@ const Projects = () => {
                             </Tab>
                             <Tab eventKey="profile" title="Profile">
                             {
-                             detail.filter((article) => { return article.category === "Bollywood4" }).map((n) => (
+                             detail.filter((article) => { return article.category === "iot" }).map((n) => (
                             <Card
                                 articleid={n.id}
                                 imgUrl={n.Image}
@@ -48,6 +48,7 @@ const Projects = () => {
                             />
                         ))
                     }
+                  
                     </Tab> 
                           
                            

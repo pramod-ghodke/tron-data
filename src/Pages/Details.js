@@ -55,7 +55,13 @@ const Details = (props) => {
       "category": "Bollywood4",
       "description": "Akshay Kumar and Manushi Chhillar have kick-started promotions for their upcoming movie Prithviraj, which will be released on June 3. In a recent appearance on a comedy reality show, Akshay was all praise for Manushi Chhillar’s sharp memory. Manushi Chhillar also reciprocated by complimenting Akshay Kumar.In the reality show, Akshay Kumar said, If I talk about Manushi, she has such a sharp memory. She used to memorise all the dialogues, hers, mine as well as those of other actors. She could remember the toughest of words. The duo were also joined by the director, Chandraprakash Dwivedi, for the promotion of the movie on the reality show. He spoke in-depth about the upcoming release. The movie also stars Sanjay Dutt, Sonu Sood, Ashutosh Rana, and Sakshi Tanwar in pivotal rolesManushi also said that even though she loves Akshay Kumar’s comedy movies, she strongly feels that Prithviraj is his best movie to date. She said, I am a big fan of sir’s comedy and the few comedy films that sir has done. But, after watching Prithviraj, I can definitely say that Prithviraj is my favourite film of sir."
     },
-  
+    {
+      "id": 8,
+      "title": "This is IOT",
+      "Image": "https://i.ytimg.com/vi/Jl8PHbv4KQs/hqdefault.jpg",
+      "category": "iot",
+      "description": "new innovation promotions for their upcoming movie Prithviraj, which will be released on June 3. In a recent appearance on a comedy reality show, Akshay was all praise for Manushi Chhillar’s sharp memory. Manushi Chhillar also reciprocated by complimenting Akshay Kumar.In the reality show, Akshay Kumar said, If I talk about Manushi, she has such a sharp memory. She used to memorise all the dialogues, hers, mine as well as those of other actors. She could remember the toughest of words. The duo were also joined by the director, Chandraprakash Dwivedi, for the promotion of the movie on the reality show. He spoke in-depth about the upcoming release. The movie also stars Sanjay Dutt, Sonu Sood, Ashutosh Rana, and Sakshi Tanwar in pivotal rolesManushi also said that even though she loves Akshay Kumar’s comedy movies, she strongly feels that Prithviraj is his best movie to date. She said, I am a big fan of sir’s comedy and the few comedy films that sir has done. But, after watching Prithviraj, I can definitely say that Prithviraj is my favourite film of sir."
+    },
   ]);
   return (
     <div>

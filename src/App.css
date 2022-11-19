@@ -17,7 +17,7 @@ a{
     }
     
     html {
-        --scrollbarBG: white;
+        --scrollbarBG: rgb(240, 240, 240);
         --thumbBG: #9921E8;
       }
       body::-webkit-scrollbar {
@@ -622,3 +622,66 @@ footer .footer-bottom{
   background: #9921E8;
   color: white;
 }
+
+
+/* --------- Admin Page CSS --------*/
+.admin .textarea{
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  scroll-behavior: smooth;
+  --scrollbarBG: rgb(255, 255, 255);
+  --thumbBG: #9921E8;
+}
+
+.admin .textarea::-webkit-scrollbar {
+  width: 10px;
+}
+.admin .textarea::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+.admin .textarea::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+/* ------ LOGIN PAGE CSS ------*/
+.login{
+  height: 70vh;
+}
+.login .card{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-width: 1px 0px 0px 1px;
+  border-color: #dfeaf3;
+}
+.login input, 
+.login .input-group-text{
+  border: 1px solid #a6d3f7;  
+}
+.login .input-group-text{
+  background: #329bf1;
+  color: white;
+}
+.login .heading{
+  font-weight: 800;
+  color: #0060ad;
+}
+.login .btn-submit{
+  border: 0px;
+  border-radius: 8px;
+  background: linear-gradient(145deg, #329bf1, #0060ad);
+  color: white;
+  padding: 5px 10px !important;
+  transition: 0.3s ease-in;
+  }
+  .login .btn-submit:hover{
+    transform: translateY(-2px);
+  }
+
+  /* - Dashboard SideNav CSs ---*/
+   .sidenav{
+    height: 88vh;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: linear-gradient(145deg, #995ef7, #9921E8);
+
+   }

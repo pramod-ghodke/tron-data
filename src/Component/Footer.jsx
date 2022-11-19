@@ -1,7 +1,7 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 import * as Icon from 'react-bootstrap-icons';
-import { LinkContainer } from "react-router-bootstrap";
+
 import '../App.css';
 
 import footerimg from '../Assets/footer-img.png';
